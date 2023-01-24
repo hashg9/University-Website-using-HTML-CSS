@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    animation: expand .8s ease forwards;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all .8s ease;
+}
+#main-logo{
+    width: 12%;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+    animation: slideUp .8s ease forwards .5s;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.uni-logo{
+    width: 289px;
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.anim{
+    animation: slideUp .8s ease-in-out forwards .8s;
+}
+
+.topright .kid-logo{
+    width: 290px;
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 25px;
+}
+
+#data_sci {
+    padding-top: 62px;
+}
+
+#game {
+    padding-top: 42px;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    animation: slideUp .8s ease-in-out forwards 1s;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.navbtn{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color:  rgb(227 74 56);
+}
+
+.navbtn:hover{
+    color: rgb(226, 33, 12);
+}
+
+.navsc{
+    font-weight: bold;
+}
+
+.section4{
+    padding: 73px;
+}
+.section4 h1{
+    font-size: 2.3rem;
+}
+
+#Join #sec4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form_detail{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lab{
+    margin-right: 50px;
+}
+
+.JoinNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 10px;
+}
+.form-group{
+    padding: 0px 60px;
+}
+.form-group input{
+    display: flex;
+    padding: 5px 15px;
+    margin: 8px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.txt-area{
+    display: flex;
+    padding: 5px 15px;
+    margin: 8px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    border: 1px solid ;
+}
+.form-group label{
+    display: block;
+    padding: 5px 20px;
+    margin: 20px 0px;
+    text-align: center;
+    align-items: center;
+}
+#gender {
+    width: 100%;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 0.35rem;
+    margin-left: 6px;
+}
+
+#dob{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Crs {
+    width: 100%;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 0.35rem;
+    margin-left: 6px;
+}
+
+.Jbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.section5{
+    padding: 73px;
+    margin: 150px;
+}
+.section5 h1{
+    font-size: 2.3rem;
+}
+
+.utility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 10px;
+}
+
+#comment{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 0.35rem;
+    margin-left: 6px;
+}
+#feedback #sec5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section6 h1{
+    font-size: 2.3rem;
+}
+
+.Contact{
+    height: 48px;
+    width: 48px;
+}
+.disp-pad{
+    display: flex;
+    padding: 25px;
+}
+.disp-pad h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    font-size: large;
+}
+.cont-pad{
+    display: flex;
+    padding: 25px;
+    justify-content: left;
+    align-items: left;
+}
+
+#code{
+    width: 50px;
+}
+
+
+.sl-up{
+    animation: slideUp .8s ease-in-out forwards 1s;
+}
+
+.need-account{
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.anc{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    padding-left: 45px;
+    color:  rgb(227 74 56);
+}
+.anc::after{
+    text-decoration: none;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(500px) scale(.2);
+    }
+
+    100% {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(300px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes expand {
+    0% {
+        transform: translateX(1400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}

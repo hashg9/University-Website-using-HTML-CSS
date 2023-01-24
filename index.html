@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My University</title>
+    <link rel="icon" type="image/x-icon" href="uni.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue"><h1>My University</h1>
+                    <img id="main-logo" src="lg.png" alt="">
+                </div>
+                <ul class="navbar flex items-center">
+                    <li ><a class="navbtn navsc" href="#">Home</a></li>
+                    <li ><a class="navbtn navsc" href="#About">About</a></li>
+                    <li ><a class="navbtn navsc" href="#Courses">Courses</a></li>
+                    <li ><a class="navbtn anim" href="login.html"><button class="btn">Login</button></a></li>
+                    <li ><a class="navbtn anim" href="Registration.html"><button class="btn">Register Now</button></a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section id="About" class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="uni-logo" src="uni.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">Where dreams become reality!</h1>
+                        <p class=" text-center anim">At the "My University", excellence is what we strive to achieve. Our infrastructure,
+                            faculty, vision, ideals, and teaching methods make us a premier university.</p>
+                            <p class="deal text-center">Admission closes in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <a href="#Std"><button class="btn">Student Details</button></a>
+                                <a href="#contact-us"><button class="btn">Contact Us</button></a>
+                            </div>
+                            
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="kid-logo" src="school kid.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="Courses" class="section2">
+                <h1 class="text-center my-2">Courses</h1>
+                <p class="my-2">Be at the forefront of sustainable development by learning to leverage cutting-edge disruptive technology for meaningful, high-performance urban solutions.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2 class="sub">Gaming Technology</h2>
+                        <ul>
+                            <li id="game" class="highlighted sl-up">Enroll in online courses to learn game development from home. Master popular tools, such as Unity and C++, to create original games and apps.</li>
+                            <li><a href="Registration.html"><button class="btn">Register Now</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2 class="sub">Artificial Intelligence</h2>
+                        <ul>
+                            <li class="highlighted sl-up">The Ultimate Guide to Become an AI-ML Engineer. Development, Data Science and AI ML. Artificial Intelligence & Machine Learning - Get Certified. Register Online.</li>
+                            <li><a href="Registration.html"><button class="btn">Register Now</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2 class="sub">Data Science</h2>
+                        <ul>
+                            <li id="data_sci" class="highlighted sl-up">Data science is a broad-spectrum and multidisciplinary field. The subject implies scientific methods to find and understand patterns that are a given with big data.</li>
+                            <li><a href="Registration.html"><button class="btn">Register Now</button></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section id="Std" class="section3">
+                <h1 class="text-center my-2">Student Details</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Roll Number</th>
+                          <th>Age</th>
+                          <th>Percentage</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Harsh Gupta</th>
+                          <td>001</svg></td>
+                          <td>21y</svg></td>
+                          <td>98%</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Kislay Kumar</th>
+                          <td>002</td>
+                          <td>22y</svg></td>
+                          <td>90%</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Munendra Pal</th>
+                          <td>003</svg></td>
+                          <td>20y</svg></td>
+                          <td>92%</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Arnind Singh Bisht</th>
+                          <td>004</td>
+                          <td>30y</svg></td>
+                          <td>54%</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Lavish Kumar</th>
+                          <td>005</td>
+                          <td>24y</svg></td>
+                          <td>85%</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Simran Kaur</th>
+                          <td>006</td>
+                          <td>25y</td>
+                          <td>91%</svg></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Paras Rana</th>
+                            <td>007</td>
+                            <td>24y</td>
+                            <td>81%</svg></td>
+                          </tr>
+                      </tbody>
+                    </table>
+            </section>              
+                <hr>
+                <section id="contact-us" class="section6 utility my-2">
+                    <div id="sec6" class="my-2 marwid">
+                        <div>
+                            <h1 class="text-center my-2">Contact Us</h1>
+                        </div>
+                        <div class="justify-center">
+                            <div class="disp-pad">
+                                <img class="Contact" src="call.png" alt="">
+                                <h4>+91-5107786094</h4>
+                            </div>
+                            <div class="disp-pad">
+                                <img class="Contact" src="email.png" alt="">
+                                <h4 class="justify-center">myuniversity.edu.in</h4>
+                            </div>
+                            <div class="disp-pad">
+                                <img class="loc Contact" src="loc.png" alt="">
+                                <h4 class="justify-center">311, Block C, My University, Greater Noida, U.P 201310</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sec5" class="box my-2 marwid">
+                        <div>
+                            <h1 class="text-center my-2">Enquiry</h1>
+                        </div>
+                        <div class="contact">
+                            <form action="">
+                                <div class="form-group container plantable font-bold px-n">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" placeholder="Enter Your Name">
+                                </div>
+                                <div class="form-group container plantable font-bold px-n">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" placeholder="Enter Your Email">
+                                </div>
+                                <div class="form-group container plantable font-bold px-n">
+                                    <label>Mobile No.:</label>
+                                    <input id="num" type="text" name="phone" placeholder="Enter Your Mobile No." size="10" required>
+                                </div>
+                                <div class="form-group container plantable px-n">
+                                    <label class="font-bold">Courses:</label>
+                                    <input type="radio" value="Gaming Technology" name="CRS"> Gaming Technology
+                                    <input type="radio" value="Artificial Intelligence" name="CRS"> Artificial Intelligence
+                                    <input type="radio" value="Data Science" name="CRS"> Data Science
+                                </div>
+                                <div class="form-group container plantable font-bold px-n">
+                                    <label for="Message">Your Question:</label>
+                                    <textarea id="comment" name="comment" form="usrform" placeholder="Enter text here..."></textarea>
+                                </div>
+                                <div class="Jbtn">
+                                    <button class="btn">Send Us</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+        </main>
+        <footer>
+            Copyright &copy; myuniversity.edu.in | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
